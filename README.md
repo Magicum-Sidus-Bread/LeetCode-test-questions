@@ -6,5 +6,5 @@
 
 如果有陌生人看到，那么一起加油吧！编程就是熟能生巧嘛！
 
-Copyright © 2022 susancutie. All rights reserved.
+Copyright © 2022 Susancutie. All rights reserved.
 

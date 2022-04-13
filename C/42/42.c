@@ -1,4 +1,4 @@
-//此解答超出时间限制！！！
+//此解答超出时间限制！！！  
 int trap(int* height, int heightSize){
     int max_height;
     int WaterNum = 0;

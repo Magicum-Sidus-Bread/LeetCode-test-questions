@@ -1,4 +1,4 @@
-//又一种超时的解题思路：返回每一行的水块的数量，再把每一行的水的数量加起来
+//又一种超时的解题思路：返回每一行的水块的数量，再把每一行的水的数量加起来   
 int row_num(int* height,int heightSize,int row){
     int num = 0;
     int column;

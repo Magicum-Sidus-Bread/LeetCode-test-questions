@@ -1,4 +1,4 @@
-int higher(int* height,int heightSize,int column,int direction,int max_height_column){
+int higher(int* height,int heightSize,int column,int direction,int max_height_column){ 
     if(direction == 0){
         if(column == heightSize - 1) return -1;
         for(int i = column + 1;i < heightSize;i++){

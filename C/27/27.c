@@ -1,6 +1,7 @@
 //
-// Created by Harry Potter on 2022/7/22.
+// Created by Susancutie on 2022/7/22.
 //
+
 int removeElement(int* nums, int numsSize, int val){
     if(numsSize==1 && nums[0]==val)return 0;
     int head = 0;
@@ -22,4 +23,3 @@ int removeElement(int* nums, int numsSize, int val){
     int left_num = tail + 1;
     return left_num;
 }
-

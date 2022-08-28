@@ -21,23 +21,23 @@ public:
         p = list1;
         q = list2;
         while(p != nullptr && q != nullptr){
-            if(p -> val <= q-> val){
-                tail -> next = p;
+            if(p->val <= q->val){
+                tail->next = p;
                 tail = p;
-                p = p -> next;
+                p = p->next;
             }
             else {
-                tail -> next = q;
+                tail->next = q;
                 tail = q;
-                q = q -> next;
+                q = q->next;
             }
         }
         if(p == nullptr){
-            tail -> next = q;
+            tail->next = q;
         }
         if(q == nullptr){
-            tail -> next = p;
+            tail->next = p;
         }
-        return head -> next;
+        return head->next;
     }
 };
